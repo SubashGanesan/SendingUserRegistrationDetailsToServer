@@ -8,12 +8,15 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
-<body>
+<body class="background vh-100">
 <div class="container-fluid">
-    <div class="row background vh-100">
+    <div class="row">
         <div class="col-xl-4"></div>
-        <div class="col-xl-4 my-5">
-            <div class="my-5">
+        <div class="col-xl-4 mt-5 border-white shadow-xl card bg-transparent">
+            <div class="card-header border-white text-light mt-2 text-center">
+                <h3>Register Here :)</h3>
+            </div>
+            <div class="card-body">
             <form id="Registerform">
                 <label for="" class="text-light">FirstName :</label>
                 <input id="firstName" class="form-control" type="text">
@@ -23,6 +26,7 @@
                 <input id="mail" class="form-control" type="email">
                 <label for="" class="text-light">Password :</label>
                 <input id="password" class="form-control" type="password">
+                <br>
                 <button class="btn btn-primary">Submit</button>
             </form >
         </div>

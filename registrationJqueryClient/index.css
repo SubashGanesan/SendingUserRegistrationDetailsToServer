@@ -3,3 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div.card {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.514), 0 6px 20px 0 rgba(247, 246, 246, 0.596);
+  }
